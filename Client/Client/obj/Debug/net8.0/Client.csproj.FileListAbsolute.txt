@@ -1,0 +1,14 @@
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Client\Client\obj\Debug\net8.0\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Client\Client\obj\Debug\net8.0\Client.AssemblyInfoInputs.cache
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Client\Client\obj\Debug\net8.0\Client.AssemblyInfo.cs
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Client\Client\obj\Debug\net8.0\Client.csproj.CoreCompileInputs.cache
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Client\Client\bin\Debug\net8.0\Client.exe
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Client\Client\bin\Debug\net8.0\Client.deps.json
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Client\Client\bin\Debug\net8.0\Client.runtimeconfig.json
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Client\Client\bin\Debug\net8.0\Client.dll
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Client\Client\bin\Debug\net8.0\Client.pdb
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Client\Client\obj\Debug\net8.0\Client.dll
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Client\Client\obj\Debug\net8.0\refint\Client.dll
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Client\Client\obj\Debug\net8.0\Client.pdb
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Client\Client\obj\Debug\net8.0\Client.genruntimeconfig.cache
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Client\Client\obj\Debug\net8.0\ref\Client.dll

@@ -1,0 +1,14 @@
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Server\Server\bin\Debug\net8.0\Server.exe
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Server\Server\bin\Debug\net8.0\Server.deps.json
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Server\Server\bin\Debug\net8.0\Server.runtimeconfig.json
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Server\Server\bin\Debug\net8.0\Server.dll
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Server\Server\bin\Debug\net8.0\Server.pdb
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Server\Server\obj\Debug\net8.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Server\Server\obj\Debug\net8.0\Server.AssemblyInfoInputs.cache
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Server\Server\obj\Debug\net8.0\Server.AssemblyInfo.cs
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Server\Server\obj\Debug\net8.0\Server.csproj.CoreCompileInputs.cache
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Server\Server\obj\Debug\net8.0\Server.dll
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Server\Server\obj\Debug\net8.0\refint\Server.dll
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Server\Server\obj\Debug\net8.0\Server.pdb
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Server\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Server\Server\obj\Debug\net8.0\ref\Server.dll
