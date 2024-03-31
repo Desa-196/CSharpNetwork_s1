@@ -12,3 +12,4 @@ C:\GB\CSharpNetwork\CSharpNetwork_s1\Server\Server\obj\Debug\net8.0\refint\Serve
 C:\GB\CSharpNetwork\CSharpNetwork_s1\Server\Server\obj\Debug\net8.0\Server.pdb
 C:\GB\CSharpNetwork\CSharpNetwork_s1\Server\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
 C:\GB\CSharpNetwork\CSharpNetwork_s1\Server\Server\obj\Debug\net8.0\ref\Server.dll
+C:\GB\CSharpNetwork\CSharpNetwork_s1\Server\Server\obj\Debug\net8.0\Server.sourcelink.json

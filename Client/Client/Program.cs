@@ -5,7 +5,12 @@ using Client;
 
 
 UdpClient udpClient = new UdpClient();
-IPEndPoint ipEndPoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 1234);
+
+//Устанавляваем таймаут ожидания приема ответа
+udpClient.Client.ReceiveTimeout = 1000;
+
+IPEndPoint myIpEndPoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 1234);
+IPEndPoint ServeripEndPoint = new IPEndPoint(IPAddress.Any, 0);
 
 
 while (true)
@@ -13,7 +18,6 @@ while (true)
     string? messageText;
     do
     {
-        Console.Clear();
         Console.WriteLine("Введите сообщение: ");
         messageText = Console.ReadLine();
     }
@@ -23,5 +27,28 @@ while (true)
     string json = message.SerializeMessageToJson();
 
     byte[] data = Encoding.UTF8.GetBytes(json);
-    udpClient.Send(data, data.Length, ipEndPoint);
+
+    //Отправляем сообщение
+    udpClient.Send(data, 0, myIpEndPoint);
+
+    //Ждем ответа от сервера
+    try
+    {
+        byte[] buffer = udpClient.Receive(ref ServeripEndPoint);
+        if (buffer == null) break;
+
+        Message? receiveMessage = Message.DeserializeFromJsonToMessage(Encoding.UTF8.GetString(buffer));
+
+        if (receiveMessage.Text == "ok") Console.WriteLine("Сообщение доставлено!");
+        else Console.WriteLine("Ошибка получения сообщения сервером!");
+
+    }
+    //Если прошел таймаут и сервер не ответил
+    catch(System.Net.Sockets.SocketException e)
+    {
+        Console.WriteLine("Сервер не ответил за указанный промежуток времени!");
+    }
+    
+
+    
 }
